@@ -1,5 +1,13 @@
-class Solution {
-    public String reverseWords(String s) {
+import java.util.Scanner;
+public class ReverseWords {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the String: ");
+        String s = input.nextLine();
+        String result = reverseWords(s);
+        System.out.print("String in reverse order: " + result);
+    }
+    public static String reverseWords(String s) {
         StringBuilder name = new StringBuilder();
         StringBuilder straight = new StringBuilder();
         int i = s.length()-1;

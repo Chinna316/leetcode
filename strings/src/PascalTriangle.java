@@ -1,11 +1,16 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 public class PascalTriangle {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the rowIndex: ");
+        int rowIndex = input.nextInt();
+        System.out.print("Values in the row: " + getRow(rowIndex));
 
 
     }
 
-    public ArrayList<Integer> getRow(int rowIndex) {
+    public static ArrayList<Integer> getRow(int rowIndex) {
         ArrayList<Integer> temp = new ArrayList<Integer>();
         ArrayList<Integer> list = new ArrayList<Integer>();
 
