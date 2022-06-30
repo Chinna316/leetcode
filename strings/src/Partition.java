@@ -8,7 +8,7 @@ public class Partition {
             nums[i] = input.nextInt();
         }
         int result = arrayPairSum(nums);
-        System.out.println("total array pair sum::"+ result);
+        System.out.println("total array pair sum:::"+ result);
     }
         public static int arrayPairSum(int[] nums) {
             int sum = 0;
