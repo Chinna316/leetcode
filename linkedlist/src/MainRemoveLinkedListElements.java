@@ -1,3 +1,7 @@
+/**
+ * Input: head = [1,2,6,3,4,5,6], val = 6
+ * Output: [1,2,3,4,5]
+ */
 public class MainRemoveLinkedListElements {
     public static void main(String[] args) {
         RemoveLinkedListElements removeLinkedListElements = new RemoveLinkedListElements();
